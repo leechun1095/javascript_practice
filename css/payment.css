@@ -1,0 +1,120 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+    big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, 
+    dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, 
+    canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0 auto;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline; /*초기값 셋팅*/
+        }
+header {
+    width:100%;
+    background-color:black;
+}
+
+header ul {
+    overflow:hidden;
+    width:620px;
+    height: 60px;
+    line-height:60px; 
+    margin:0 auto;
+    text-align: center;
+}
+
+header li{
+    float:left;
+    margin-right:80px;
+    font-size:1.2em;
+    
+    color:#ffffff;
+    list-style:none; /* 리스트 점이 찍히는거 삭제 */
+}
+
+header a{
+    color:#ffffff; text-decoration:none; /*밑줄 제거*/
+    font-weight:bold;
+}
+
+#content {
+    width: 422.5px;
+}
+#content1, #content3, #content10, #content12, #content13 {
+    background-color:#E7E7E7;
+}
+#content2 {
+    margin-bottom: 10px;
+}
+#content p1, p4, p13, p16, p17 {
+    width: 422px; /*공통*/
+    height:40px; /*공통*/
+    line-height:40px; /*공통*/
+    margin:10px;  /*공통*/
+    font-size: 0.8em;
+}
+#content p2, p5, p9, p10, p11, p12, p14, p18 {
+    width: 422px; /*공통*/
+    height:40px; /*공통*/
+    line-height:40px; /*공통*/
+    margin:10px;  /*공통*/
+    font-weight: bold;
+}
+#content5 {
+    margin-bottom: 10px;
+}
+#content6, #content7, #content8, #content9, #content13 {
+    border-top: 0.1px solid #D5D5D5;
+}
+#content p3, p6, p7, p8, p15 {
+    margin:10px;
+    font-size: 0.9em;
+}
+#content p14{
+    font-size: 0.9em;
+}
+
+#content p15{
+    font-weight: bold;
+    margin:10px;
+    font-size: 1.1em;
+    color: goldenrod;
+}
+#content11 {
+    height: 80px;
+}
+#content13 p22{
+    font-weight: bold;
+    
+}
+#content14 {
+    background-color:#757575;
+    margin-top:20px;
+    text-align: center;
+    color:white;
+}
+#content14 a {
+    text-decoration:none; /*밑줄 제거*/
+    background-color:#757575;
+    color:white;
+}
+
+
+/* #content5 {
+    border-bottom: 0.1px solid #D5D5D5;
+    margin-bottom: 10px;
+} */
+.js-clock {
+    margin-top:60px;
+    font-weight:bold;
+    
+    width: 150px;
+}
+footer {
+	margin-top:25px;
+}
+footer div {
+	width:100%; height:50px; margin:0 auto; background-color:#242424; color:gray;
+	text-align:center; line-height:50px;
+	clear:both; border:0;
+}

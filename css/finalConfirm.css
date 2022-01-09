@@ -1,0 +1,117 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+    big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, 
+    dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, 
+    canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0 auto;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline; /*초기값 셋팅*/
+        }
+
+#content {
+    width: 422.5px;
+    border:0.2px solid #0000A5;
+}
+#content1 {
+    background-color:#0000A5;
+}
+#content1 {
+    text-align: center;
+}
+#content1 p1 {
+    height:50px; /*공통*/
+    line-height:50px; /*공통*/
+    font-weight:bold;
+    font-size: 1.4em;
+    color:white;
+}
+#content2 {
+    margin-top:14px;
+    height: 350px;
+    width: 422.5px;
+    overflow: hidden;
+}
+#content2 p2, p3, p4, p6, p7, p8, p9{
+    width: 422px; /*공통*/
+    height:40px; /*공통*/
+    line-height:40px; /*공통*/
+    margin:30px;  /*공통*/
+    font-size: 1em;
+    color:#757575;
+    font-weight:bold;
+}
+#content2 p5 {
+    width: 422px; /*공통*/
+    height:40px; /*공통*/
+    line-height:40px; /*공통*/
+    margin:40px;  /*공통*/
+    font-size: 1em;
+    color:#757575;
+    font-weight:bold;
+    
+}
+#tx1, #tx2, #tx3, #tx4, #tx5, #tx6, #tx7, #tx8 {
+    border: 0.3px solid #F6F6F6;
+    border-radius: 7px;
+    height: 34px;
+    line-height:34px;
+    font-size: 1.1em;
+    width: 250px;
+    color:black;
+    font-weight:bold;
+    text-align: center;
+}
+#tx1, #tx2, #tx3, #tx4, #tx5, #tx6, #tx7 {
+    background-color: #EEEEEE;
+}
+#tx8{
+    background-color:#FFFFB0;
+}
+
+#content3 {
+    background-color:#E7E7E7;
+    width: 420px;
+}
+#content3 p10 {
+    text-align: center;
+    color:#0000A5;
+    font-weight:bold;
+    font-size: 0.8em;
+    margin-left:90px;
+    height: 30px;
+    line-height:30px;
+    margin-bottom: 10px;
+}
+
+#table1, #table2 {
+    border-collapse: collapse;
+}
+#table1 {
+    float: left;
+    margin-right: 6.5px;
+    width: 208px;
+    text-align: center;
+    background-color:#757575;
+    color:white;
+    font-weight:bold;
+}
+#table2 {
+    width: 208px;
+    text-align: center;
+    background-color:#757575;
+    color:white;
+    font-weight:bold;
+    text-decoration:none; 
+}
+#table1 a, #table2 a {
+    text-decoration:none; /*밑줄 제거*/
+    background-color:#757575;
+    color:white;
+    height:40px; /*공통*/
+    line-height:40px; /*공통*/
+    margin-top:20px;
+}
+
+

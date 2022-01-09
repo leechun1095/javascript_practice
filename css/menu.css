@@ -1,0 +1,143 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, 
+canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; /*초기값 셋팅*/
+}
+
+header {
+    width:100%;
+    background-color:black;
+}
+
+header ul {
+    overflow:hidden;
+    width:620px;
+    height: 60px;
+    line-height:60px; 
+    margin:0 auto;
+    text-align: center;
+}
+
+header li{
+    float:left;
+    font-size:1.2em;
+    color:#ffffff;
+    list-style:none; /* 리스트 점이 찍히는거 삭제 */
+}
+#m1{
+    margin-left : 80px;
+}
+#m1, #m2, #m3 {
+    margin-right:80px;
+}
+
+header a{
+    color:#ffffff; text-decoration:none; /*밑줄 제거*/
+    font-weight:bold;
+}
+
+#content {
+    width : 1100px;
+}
+#sec1 {
+    margin-top:50px;
+}
+
+#sec1, #sec2, #sec3, #sec4{
+    width : 800px;
+    height:150px;
+    line-height:30px; 
+    overflow:hidden;  
+}
+
+#sec4 {
+    /* margin-bottom: 150px; */
+}
+.content1, .content3, .content5, .content7 {
+    width : 420px;
+    float:left;
+    overflow:hidden;
+}
+
+.content1 img, .content2 img, .content3 img, .content4 img, .content5 img, .content6 img, .content7 img, .content8 img{
+    width:110px;
+    float:left;
+    margin-right:20px;
+    /* overflow:hidden; */
+}
+
+p1 {
+    font-weight:bold;
+    font-size: 1.2em;
+    
+}
+p2 {
+    color:goldenrod;
+    font-size: 0.9em;
+}
+p3 {
+    font-weight:bold;
+    font-size: 1.5em;
+}
+#menu1 a, #menu2 a, #menu3 a,#menu4 a, #menu5 a, #menu6 a, #menu7 a,#menu8 a {
+    text-decoration:none;
+}
+
+#menu1, #menu2, #menu3, #menu4, #menu5, #menu6, #menu7, #menu8 {
+    margin-top:5px;   
+}
+
+.js-clock {
+    margin-top:100px;
+    font-weight:bold;
+    
+    width: 200px;
+}
+
+/* #slider {
+    width: 100%;
+    position: relative;
+    margin:0;
+}
+.slider_item {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0;
+    z-index: 0;
+    overflow:hidden;
+    opacity: 0;
+    transition:all .5s ease-in-out;
+    transform: scale(0.9);
+}
+.slider_item img {width: 400px;} */
+
+/* .slider_item:nth-child(odd){
+    background-color:blueviolet;
+}
+.slider_item:nth-child(even){
+    background-color:cadetblue;
+} */
+/* .showing{
+    opacity: 1;
+    z-index: 1;
+    transform: none;
+} */
+
+footer {
+	margin-top:38px;
+}
+footer div {
+	width:100%; height:50px; margin:0 auto; background-color:#242424; color:gray;
+	text-align:center; line-height:50px;
+	clear:both; border:0;
+}
